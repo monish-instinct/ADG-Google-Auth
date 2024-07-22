@@ -1,1 +1,1 @@
-# ADG-Google-Auth
+# Google Sign-In with Firebase in SwiftUI
