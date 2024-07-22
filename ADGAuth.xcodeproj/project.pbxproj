@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814BDD1809CBA505817424C1 /* Pods_ADGAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E320362E559A8AF7FACFBB8 /* Pods_ADGAuth.framework */; };
+		EA65EE202C4D069C0056FA37 /* ADGAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE1F2C4D069C0056FA37 /* ADGAuthApp.swift */; };
+		EA65EE222C4D069C0056FA37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE212C4D069C0056FA37 /* ContentView.swift */; };
+		EA65EE242C4D069D0056FA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA65EE232C4D069D0056FA37 /* Assets.xcassets */; };
+		EA65EE272C4D069D0056FA37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA65EE262C4D069D0056FA37 /* Preview Assets.xcassets */; };
+		EA65EE322C4D069D0056FA37 /* ADGAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE312C4D069D0056FA37 /* ADGAuthTests.swift */; };
+		EA65EE3C2C4D069D0056FA37 /* ADGAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE3B2C4D069D0056FA37 /* ADGAuthUITests.swift */; };
+		EA65EE3E2C4D069D0056FA37 /* ADGAuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE3D2C4D069D0056FA37 /* ADGAuthUITestsLaunchTests.swift */; };
+		EA65EE502C4D08BC0056FA37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA65EE4F2C4D08BC0056FA37 /* GoogleService-Info.plist */; };
+		EA65EE532C4D0B670056FA37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65EE522C4D0B670056FA37 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA65EE2E2C4D069D0056FA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA65EE142C4D069C0056FA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA65EE1B2C4D069C0056FA37;
+			remoteInfo = ADGAuth;
+		};
+		EA65EE382C4D069D0056FA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA65EE142C4D069C0056FA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA65EE1B2C4D069C0056FA37;
+			remoteInfo = ADGAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E320362E559A8AF7FACFBB8 /* Pods_ADGAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADGAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFE66010FB4055A789E964D /* Pods-ADGAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADGAuth.release.xcconfig"; path = "Target Support Files/Pods-ADGAuth/Pods-ADGAuth.release.xcconfig"; sourceTree = "<group>"; };
+		EA65EE1C2C4D069C0056FA37 /* ADGAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADGAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA65EE1F2C4D069C0056FA37 /* ADGAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADGAuthApp.swift; sourceTree = "<group>"; };
+		EA65EE212C4D069C0056FA37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA65EE232C4D069D0056FA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA65EE262C4D069D0056FA37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA65EE282C4D069D0056FA37 /* ADGAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ADGAuth.entitlements; sourceTree = "<group>"; };
+		EA65EE2D2C4D069D0056FA37 /* ADGAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADGAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA65EE312C4D069D0056FA37 /* ADGAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADGAuthTests.swift; sourceTree = "<group>"; };
+		EA65EE372C4D069D0056FA37 /* ADGAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADGAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA65EE3B2C4D069D0056FA37 /* ADGAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADGAuthUITests.swift; sourceTree = "<group>"; };
+		EA65EE3D2C4D069D0056FA37 /* ADGAuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADGAuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA65EE4F2C4D08BC0056FA37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/instinct/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA65EE522C4D0B670056FA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBED805E62ADD2A3EBED7FA7 /* Pods-ADGAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADGAuth.debug.xcconfig"; path = "Target Support Files/Pods-ADGAuth/Pods-ADGAuth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA65EE192C4D069C0056FA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814BDD1809CBA505817424C1 /* Pods_ADGAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE2A2C4D069D0056FA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE342C4D069D0056FA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ED211F5EB611D13078594F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBED805E62ADD2A3EBED7FA7 /* Pods-ADGAuth.debug.xcconfig */,
+				AFFE66010FB4055A789E964D /* Pods-ADGAuth.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		670BF8D0C680EE6C5A7D37F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E320362E559A8AF7FACFBB8 /* Pods_ADGAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA65EE132C4D069C0056FA37 = {
+			isa = PBXGroup;
+			children = (
+				EA65EE1E2C4D069C0056FA37 /* ADGAuth */,
+				EA65EE302C4D069D0056FA37 /* ADGAuthTests */,
+				EA65EE3A2C4D069D0056FA37 /* ADGAuthUITests */,
+				EA65EE1D2C4D069C0056FA37 /* Products */,
+				33ED211F5EB611D13078594F /* Pods */,
+				670BF8D0C680EE6C5A7D37F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA65EE1D2C4D069C0056FA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA65EE1C2C4D069C0056FA37 /* ADGAuth.app */,
+				EA65EE2D2C4D069D0056FA37 /* ADGAuthTests.xctest */,
+				EA65EE372C4D069D0056FA37 /* ADGAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA65EE1E2C4D069C0056FA37 /* ADGAuth */ = {
+			isa = PBXGroup;
+			children = (
+				EA65EE1F2C4D069C0056FA37 /* ADGAuthApp.swift */,
+				EA65EE212C4D069C0056FA37 /* ContentView.swift */,
+				EA65EE522C4D0B670056FA37 /* AppDelegate.swift */,
+				EA65EE4F2C4D08BC0056FA37 /* GoogleService-Info.plist */,
+				EA65EE232C4D069D0056FA37 /* Assets.xcassets */,
+				EA65EE282C4D069D0056FA37 /* ADGAuth.entitlements */,
+				EA65EE252C4D069D0056FA37 /* Preview Content */,
+			);
+			path = ADGAuth;
+			sourceTree = "<group>";
+		};
+		EA65EE252C4D069D0056FA37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA65EE262C4D069D0056FA37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA65EE302C4D069D0056FA37 /* ADGAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA65EE312C4D069D0056FA37 /* ADGAuthTests.swift */,
+			);
+			path = ADGAuthTests;
+			sourceTree = "<group>";
+		};
+		EA65EE3A2C4D069D0056FA37 /* ADGAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA65EE3B2C4D069D0056FA37 /* ADGAuthUITests.swift */,
+				EA65EE3D2C4D069D0056FA37 /* ADGAuthUITestsLaunchTests.swift */,
+			);
+			path = ADGAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA65EE1B2C4D069C0056FA37 /* ADGAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA65EE412C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuth" */;
+			buildPhases = (
+				C5529F3605505CB387236202 /* [CP] Check Pods Manifest.lock */,
+				EA65EE182C4D069C0056FA37 /* Sources */,
+				EA65EE192C4D069C0056FA37 /* Frameworks */,
+				EA65EE1A2C4D069C0056FA37 /* Resources */,
+				A876E8DDA1541FCFF9C3A95B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADGAuth;
+			productName = ADGAuth;
+			productReference = EA65EE1C2C4D069C0056FA37 /* ADGAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA65EE2C2C4D069D0056FA37 /* ADGAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA65EE442C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuthTests" */;
+			buildPhases = (
+				EA65EE292C4D069D0056FA37 /* Sources */,
+				EA65EE2A2C4D069D0056FA37 /* Frameworks */,
+				EA65EE2B2C4D069D0056FA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA65EE2F2C4D069D0056FA37 /* PBXTargetDependency */,
+			);
+			name = ADGAuthTests;
+			productName = ADGAuthTests;
+			productReference = EA65EE2D2C4D069D0056FA37 /* ADGAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA65EE362C4D069D0056FA37 /* ADGAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA65EE472C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuthUITests" */;
+			buildPhases = (
+				EA65EE332C4D069D0056FA37 /* Sources */,
+				EA65EE342C4D069D0056FA37 /* Frameworks */,
+				EA65EE352C4D069D0056FA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA65EE392C4D069D0056FA37 /* PBXTargetDependency */,
+			);
+			name = ADGAuthUITests;
+			productName = ADGAuthUITests;
+			productReference = EA65EE372C4D069D0056FA37 /* ADGAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA65EE142C4D069C0056FA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EA65EE1B2C4D069C0056FA37 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					EA65EE2C2C4D069D0056FA37 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EA65EE1B2C4D069C0056FA37;
+					};
+					EA65EE362C4D069D0056FA37 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EA65EE1B2C4D069C0056FA37;
+					};
+				};
+			};
+			buildConfigurationList = EA65EE172C4D069C0056FA37 /* Build configuration list for PBXProject "ADGAuth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA65EE132C4D069C0056FA37;
+			packageReferences = (
+				EA65EE512C4D0B500056FA37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EA65EE542C4D0CD60056FA37 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = EA65EE1D2C4D069C0056FA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA65EE1B2C4D069C0056FA37 /* ADGAuth */,
+				EA65EE2C2C4D069D0056FA37 /* ADGAuthTests */,
+				EA65EE362C4D069D0056FA37 /* ADGAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA65EE1A2C4D069C0056FA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA65EE272C4D069D0056FA37 /* Preview Assets.xcassets in Resources */,
+				EA65EE242C4D069D0056FA37 /* Assets.xcassets in Resources */,
+				EA65EE502C4D08BC0056FA37 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE2B2C4D069D0056FA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE352C4D069D0056FA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A876E8DDA1541FCFF9C3A95B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADGAuth/Pods-ADGAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADGAuth/Pods-ADGAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADGAuth/Pods-ADGAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5529F3605505CB387236202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADGAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA65EE182C4D069C0056FA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA65EE532C4D0B670056FA37 /* AppDelegate.swift in Sources */,
+				EA65EE222C4D069C0056FA37 /* ContentView.swift in Sources */,
+				EA65EE202C4D069C0056FA37 /* ADGAuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE292C4D069D0056FA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA65EE322C4D069D0056FA37 /* ADGAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA65EE332C4D069D0056FA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA65EE3C2C4D069D0056FA37 /* ADGAuthUITests.swift in Sources */,
+				EA65EE3E2C4D069D0056FA37 /* ADGAuthUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA65EE2F2C4D069D0056FA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA65EE1B2C4D069C0056FA37 /* ADGAuth */;
+			targetProxy = EA65EE2E2C4D069D0056FA37 /* PBXContainerItemProxy */;
+		};
+		EA65EE392C4D069D0056FA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA65EE1B2C4D069C0056FA37 /* ADGAuth */;
+			targetProxy = EA65EE382C4D069D0056FA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA65EE3F2C4D069D0056FA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA65EE402C4D069D0056FA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EA65EE422C4D069D0056FA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBED805E62ADD2A3EBED7FA7 /* Pods-ADGAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ADGAuth/ADGAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADGAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA65EE432C4D069D0056FA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFE66010FB4055A789E964D /* Pods-ADGAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ADGAuth/ADGAuth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADGAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EA65EE452C4D069D0056FA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADGAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADGAuth";
+			};
+			name = Debug;
+		};
+		EA65EE462C4D069D0056FA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADGAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ADGAuth";
+			};
+			name = Release;
+		};
+		EA65EE482C4D069D0056FA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ADGAuth;
+			};
+			name = Debug;
+		};
+		EA65EE492C4D069D0056FA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NFL27CSBWH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InstincT.ADGAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ADGAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA65EE172C4D069C0056FA37 /* Build configuration list for PBXProject "ADGAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65EE3F2C4D069D0056FA37 /* Debug */,
+				EA65EE402C4D069D0056FA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA65EE412C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65EE422C4D069D0056FA37 /* Debug */,
+				EA65EE432C4D069D0056FA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA65EE442C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65EE452C4D069D0056FA37 /* Debug */,
+				EA65EE462C4D069D0056FA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA65EE472C4D069D0056FA37 /* Build configuration list for PBXNativeTarget "ADGAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65EE482C4D069D0056FA37 /* Debug */,
+				EA65EE492C4D069D0056FA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA65EE512C4D0B500056FA37 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+		EA65EE542C4D0CD60056FA37 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = EA65EE142C4D069C0056FA37 /* Project object */;
+}
